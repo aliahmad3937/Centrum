@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_timer_1">
+
+
+        <TextView
+            android:id="@+id/tv_hour"
+            android:layout_width="@dimen/_64sdp"
+            android:layout_height="@dimen/_64sdp"
+            android:background="@drawable/bg_hour_2"
+            android:fontFamily="@font/digital_7"
+            android:gravity="center"
+            android:text="22"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_38ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_minute"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.40" />
+
+        <TextView
+            android:id="@+id/tv_minute"
+            android:layout_width="@dimen/_64sdp"
+            android:layout_height="@dimen/_64sdp"
+            android:background="@drawable/bg_minutes_2"
+            android:fontFamily="@font/digital_7"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_38ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_hour"
+            app:layout_constraintEnd_toStartOf="@+id/tv_second"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv_hour"
+            app:layout_constraintTop_toTopOf="@+id/tv_hour" />
+
+
+        <TextView
+            android:id="@+id/tv_second"
+            android:layout_width="@dimen/_64sdp"
+            android:layout_height="@dimen/_64sdp"
+            android:background="@drawable/bg_second_2"
+            android:fontFamily="@font/digital_7"
+            android:gravity="center"
+            android:text="56"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_38ssp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_minute"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv_minute"
+            app:layout_constraintTop_toTopOf="@+id/tv_minute" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hours"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/tv_hour"
+            app:layout_constraintStart_toStartOf="@+id/tv_hour"
+            app:layout_constraintTop_toBottomOf="@+id/tv_hour" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Minutes"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/tv_minute"
+            app:layout_constraintStart_toStartOf="@+id/tv_minute"
+            app:layout_constraintTop_toBottomOf="@+id/tv_minute" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Seconds"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/tv_second"
+            app:layout_constraintStart_toStartOf="@+id/tv_second"
+            app:layout_constraintTop_toBottomOf="@+id/tv_second" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

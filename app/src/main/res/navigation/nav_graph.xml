@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.cc.cenntrum.ui.fragments.SplashScreen"
+        android:label="SplashScreen"
+        tools:layout="@layout/fragment_splash_screen">
+        <action
+            android:id="@+id/action_splashScreen_to_login"
+            app:destination="@id/login"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
+            />
+        <action
+            android:id="@+id/action_splashScreen_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.cc.cenntrum.ui.fragments.Login"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_to_forgetPassword"
+            app:destination="@id/forgetPassword" />
+        <action
+            android:id="@+id/action_login_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_login_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPassword"
+        android:name="com.cc.cenntrum.ui.fragments.ForgetPassword"
+        android:label="ForgetPassword"
+        tools:layout="@layout/fragment_forget_password">
+        <action
+            android:id="@+id/action_forgetPassword_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.cc.cenntrum.ui.fragments.SignUp"
+        android:label="SignUp"
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/action_signUp_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.cc.cenntrum.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_mapFragment"
+            app:destination="@id/mapFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_graph"
+            app:launchSingleTop="true"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/incentives"
+        android:name="com.cc.cenntrum.ui.fragments.Incentives"
+        android:label="fragment_incentives"
+        tools:layout="@layout/fragment_incentives" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.cc.cenntrum.ui.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map">
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/notifications"
+        android:name="com.cc.cenntrum.ui.fragments.Notifications"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/points"
+        android:name="com.cc.cenntrum.ui.fragments.Points"
+        android:label="fragment_points"
+        tools:layout="@layout/fragment_points" >
+
+        <action
+            android:id="@+id/action_points_to_exchangePoints"
+            app:destination="@id/exchangePoints" />
+        <action
+            android:id="@+id/action_points_to_accumulatedPoints"
+            app:destination="@id/accumulatedPoints" />
+    </fragment>
+    <fragment
+        android:id="@+id/rewards"
+        android:name="com.cc.cenntrum.ui.fragments.Rewards"
+        android:label="fragment_rewards"
+        tools:layout="@layout/fragment_rewards" />
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.cc.cenntrum.ui.fragments.Friends"
+        android:label="Friends">
+
+
+        <action
+            android:id="@+id/action_friendsFragment_to_moreFriends"
+            app:destination="@id/moreFriends" />
+        <action
+            android:id="@+id/action_friendsFragment_to_myFocus"
+            app:destination="@id/myFocus" />
+    </fragment>
+    <fragment
+        android:id="@+id/moreFriends"
+        android:name="com.cc.cenntrum.ui.fragments.MoreFriends"
+        android:label="fragment_more_friends"
+        tools:layout="@layout/fragment_more_friends">
+
+
+        <action
+            android:id="@+id/action_moreFriends_to_friendsFragment"
+            app:destination="@id/friendsFragment" />
+        <argument
+            android:name="friend"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_moreFriends_to_myFocus"
+            app:destination="@id/myFocus" />
+    </fragment>
+
+
+    <action
+        android:id="@+id/action_global_login"
+        app:destination="@id/login"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true"
+        />
+    <fragment
+        android:id="@+id/privacyPolicy"
+        android:name="com.cc.cenntrum.ui.fragments.PrivacyPolicy"
+        android:label="PrivacyPolicy" />
+    <fragment
+        android:id="@+id/termsConditions"
+        android:name="com.cc.cenntrum.ui.fragments.TermsConditions"
+        android:label="TermsConditions" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.cc.cenntrum.ui.fragments.Profile"
+        android:label="Profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_privacyPolicy"
+            app:destination="@id/privacyPolicy"
+            app:popUpTo="@id/nav_graph"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/myFocus"
+        android:name="com.cc.cenntrum.ui.fragments.MyFocus"
+        android:label="MyFocus" >
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue=""
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/myCryptoWallet"
+        android:name="com.cc.cenntrum.ui.fragments.MyCryptoWallet"
+        android:label="MyCryptoWallet" />
+
+    <fragment
+        android:id="@+id/exchangePoints"
+        android:name="com.cc.cenntrum.ui.fragments.ExchangePoints"
+        android:label="ExchangePoints" />
+    <fragment
+        android:id="@+id/accumulatedPoints"
+        android:name="com.cc.cenntrum.ui.fragments.AccumulatedPoints"
+        android:label="AccumulatedPoints" />
+
+</navigation>

@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Cenntrum</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="concentrate_to_earn">Focus</string>
+    <string name="centrum">CENNTRUM</string>
+
+
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? <b><font color='#155958'>Sign up</font></b></string>
+    <string name="already_have_an_account_sign_in">Already have an account? <b><font color='#155958'>Sign in</font></b></string>
+    <string name="i_ve_accepted_terms_amp_conditions_and_privacy_policy">I\'ve accepted <font color='#11D9F3'>Terms &amp; Conditions</font> and <font color='#11D9F3'>Privacy Policy</font></string>
+    <string name="my_points">My Points</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="incentives">My Incentives</string>
+    <string name="notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="sign_in_to_cenntrum">SIGN IN TO CENNTRUM</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">OR</string>
+    <string name="login_via_google">Login via Google</string>
+    <string name="continue_text">Continue</string>
+    <string name="what_are_you_going_to_focus_on">What are you going to\n <b>FOCUS ON </b>?</string>
+    <string name="driving">Driving</string>
+    <string name="studing">Studying</string>
+    <string name="working">Working</string>
+    <string name="friend_family"><![CDATA[Friends & Family]]></string>
+    <string name="exersing">Exercising</string>
+    <string name="others">Other</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="required">Required</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="sign_up_to_cenntrum">SIGN UP TO CENNTRUM</string>
+    <string name="enter_date_of_birth">Enter Date of Birth</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="login_successfuly">Login successfully</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="please_select_a_date">Please select a date</string>
+    <string name="exchange_points">Exchanged Points</string>
+    <string name="log_out">Log out</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_crypto_wallets">My Crypto Wallets</string>
+    <string name="my_focus">My Focus</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="what_you_are_going_to_focus_on">What you are going to FOCUS on?</string>
+    <string name="studying">Studying</string>
+    <string name="friends_n_amp_family"><![CDATA[Friends \n& Family]]></string>
+    <string name="ranking">Ranking</string>
+    <string name="cenntrum_champion">Cenntrum Champion</string>
+    <string name="my_preferences">Cenntrum</string>
+
+    <string name="map_api_key">AIzaSyDhAq5JksRnXEQwwxCXGNtJpZ_HAPC-XsM</string>
+    <string name="register_successfully">Register successfully!</string>
+    <string name="points_added">Points Added</string>
+
+
+    <string name="fcm_message">FCM Message</string>
+    <string name="message_subscribe_failed">Failed to subscribe to topic</string>
+    <string name="message_subscribed">Subscription on</string>
+    <string name="egg_notification_channel_id" translatable="false">egg_channel</string>
+    <string name="egg_notification_channel_name" translatable="true">Egg</string>
+    <string name="breakfast_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="breakfast_notification_channel_name" translatable="true">Breakfast</string>
+    <string name="eggs_ready">It is time! Bon appetit!</string>
+    <string name="timer_running">Egg timer is running...</string>
+    <string name="breakfast_notification_channel_description">Breakfast reminder</string>
+    <string name="snooze">Snooze</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="create_flag">Create Flag</string>
+    <string name="updating_user">Updating User...</string>
+    <string name="subscription_off">Subscription Off!</string>
+    <string name="guest">Guest</string>
+    <string name="friends">Friends</string>
+    <string name="all_other_peoples">All Other People</string>
+    <string name="friend_confirmation">Friend Invitation</string>
+    <string name="do_you_want_to_add_friend">Do you want to invite this Person as your friend?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="friends_request">Friend Requests</string>
+    <string name="update_profile">Update profile</string>
+    <string name="dummy_"><![CDATA[A website To succeed online and avoid legal turmoil your website needs a privacy policy agreement .
+        The first step to creating a compliant and comprehensive privacy policy is understanding exactly what that is.
+        A privacy policy is a legal document that informs your sites users about how you collect and handle
+        their personal information. You may also hear privacy policies referred to by the following names
+        A general privacy policy explains a platforms interactions with the personal information
+        and personally identifiable information  of its users. PII is information that can be used by itself
+        or combined with other information to identify an individual.
+        Specific platforms or services may require a unique privacy policy template. Examples include
+
+.
+        The first step to creating a compliant and comprehensive privacy policy is understanding exactly what that is.
+        A privacy policy is a legal document that informs your sites users about how you collect and handle
+        their personal information. You may also hear privacy policies referred to by the following names
+        A general privacy policy explains a platforms interactions with the personal information
+        and personally identifiable information  of its users. PII is information that can be used by itself
+        or combined with other information to identify an individual.
+        Specific platforms or services may require a unique privacy policy template. Examples include]]></string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_polic">Privacy Policy</string>
+    <string name="valid_number">Enter Valid Phone Number!</string>
+    <string name="accept_privacy_policy">Please accept privacy policy!</string>
+    <string name="server_key">key=AAAApNC9Y_w:APA91bGXd0vRRFUTikE-HMmTA04gXdmSdEkYPpguT_Blyb5nK_n217LLhWBP0NazeO5I1QLWTRZzrhD40NLANaDaKB8YS1OIXv8aZbvIV1myASFRksoNyFH24AnnqMQCrltA42KJVzj1</string>
+    <string name="not_enough_points">You do not have enough points To get this incentive!</string>
+    <string name="friend_invitation_send">Your friend invitation has been sent. Once the invitation has been accepted, you will see the user among your list of friends.</string>
+    <string name="invitation_sent">Invitation Sent</string>
+    <string name="notification_title">Points added</string>
+    <string name="copy_wallet_address">Copy Wallet Address</string>
+
+    <string name="mapbox_access_token">sk.eyJ1IjoiY2VubnRydW0iLCJhIjoiY2w5d2Z1YnVyMDA4YzNycGswems3cGNmNyJ9.QWIOo1ZNlWu4HIdQw6QuMw</string>
+</resources>

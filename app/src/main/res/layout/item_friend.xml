@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/friend_image"
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="@dimen/_64sdp"
+                android:scaleType="fitXY"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/no_image"
+                app:layout_constraintBottom_toTopOf="@id/friend_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/friend_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="@dimen/_5sdp"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/friend_image"
+                app:layout_constraintStart_toStartOf="@+id/friend_image"
+                app:layout_constraintTop_toBottomOf="@id/friend_image" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:paddingBottom="@dimen/_5sdp"
+                android:text="driving"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_6ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/friend_image"
+                app:layout_constraintStart_toStartOf="@+id/friend_image"
+                app:layout_constraintTop_toBottomOf="@id/friend_name" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_seemore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:foregroundTint="@color/black"
+                android:src="@drawable/arrow"
+                android:tint="@color/black"
+                app:civ_border_color="#cfd0d2"
+                android:layout_marginTop="5dp"
+                app:civ_border_width="15dp"
+                app:civ_circle_background_color="#cfd0d2"
+                app:layout_constraintBottom_toTopOf="@id/friend_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:paddingVertical="@dimen/_5sdp"
+                android:text="See More"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/friend_image"
+                app:layout_constraintStart_toStartOf="@+id/friend_image"
+                app:layout_constraintTop_toBottomOf="@id/friend_image" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

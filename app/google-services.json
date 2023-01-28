@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "707876709372",
+    "project_id": "cenntrum-357604",
+    "storage_bucket": "cenntrum-357604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707876709372:android:057b04331d1bb3ffe64879",
+        "android_client_info": {
+          "package_name": "com.cc.cenntrum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707876709372-d4ba1f3st285g8eakuhi387hnm3bmlsh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cc.cenntrum",
+            "certificate_hash": "1264e155114807d9adefd20d0ecbba1f5024c92f"
+          }
+        },
+        {
+          "client_id": "707876709372-f7e604fsev3ub89m51j20de1efplm2ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDmXxp6HEp_KBu6uYoHqoBby9fz5xQHJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707876709372-f7e604fsev3ub89m51j20de1efplm2ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

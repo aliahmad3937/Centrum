@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.fragments.Incentives"
+        tools:openDrawer="start">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/start_guidline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="@dimen/_20sdp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/end_guidline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="73dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintGuide_end="@dimen/_20sdp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/top_guidline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="@id/end_guidline"
+                app:layout_constraintGuide_begin="20dp"
+                app:layout_constraintStart_toStartOf="@id/start_guidline"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/drawer"
+                android:layout_width="@dimen/_34sdp"
+                android:layout_height="@dimen/_34sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="@+id/start_guidline"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:srcCompat="@drawable/ic_menu" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_94sdp"
+                android:layout_height="@dimen/_94sdp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toStartOf="@+id/end_guidline"
+                app:layout_constraintStart_toStartOf="@+id/start_guidline"
+                app:layout_constraintTop_toBottomOf="@id/top_guidline"
+                app:srcCompat="@drawable/logo" />
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/_34sdp"
+                android:layout_height="@dimen/_34sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="@id/end_guidline"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:srcCompat="@drawable/back" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/continue_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:backgroundTint="@color/btn_color"
+                android:paddingVertical="@dimen/_10sdp"
+                android:text="@string/incentives"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp"
+                app:cornerRadius="@dimen/_7sdp"
+                app:layout_constraintEnd_toEndOf="@id/end_guidline"
+                app:layout_constraintStart_toStartOf="@id/start_guidline"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/group_incentives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:constraint_referenced_ids="layout_header,rv_incentives" />
+
+
+            <TextView
+                android:id="@+id/layout_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_tv_exchange"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Available Points :20000"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@id/end_guidline"
+                app:layout_constraintStart_toStartOf="@id/start_guidline"
+                app:layout_constraintTop_toBottomOf="@id/continue_btn" />
+
+
+            <LinearLayout
+                android:id="@+id/layout_header"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="@id/end_guidline"
+                app:layout_constraintStart_toStartOf="@id/start_guidline"
+                app:layout_constraintTop_toBottomOf="@id/layout_points">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_incentive_start"
+                        android:gravity="center"
+                        android:text="#"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_8ssp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/incen_line_color" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:gravity="center"
+                        android:text="Incentives"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_8ssp" />
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/incen_line_color" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_incen_value"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:gravity="center"
+                        android:text="Incentive\nValue"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_8ssp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/incen_line_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_requi_points"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:gravity="center"
+                        android:text="Required\nPoints"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_8ssp" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/incen_line_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_incen_avail"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_incentive_end"
+                        android:gravity="center"
+                        android:text="Incentives\nAvailable"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_8ssp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_incentives"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="@id/bottom_guidline"
+                app:layout_constraintEnd_toEndOf="@id/end_guidline"
+                app:layout_constraintStart_toStartOf="@id/start_guidline"
+                app:layout_constraintTop_toBottomOf="@id/layout_header"
+                tools:listitem="@layout/item_incentive" />
+
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/group_exchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="tv_avail_points,cv_exchange" />
+
+            <TextView
+                android:id="@+id/tv_avail_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_tv_exchange"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="Available Points :20000"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@id/end_guidline"
+                app:layout_constraintStart_toStartOf="@id/start_guidline"
+                app:layout_constraintTop_toBottomOf="@id/continue_btn" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_exchange"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:shadowColor="#E4E4E4"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="@id/bottom_guidline"
+                app:layout_constraintEnd_toEndOf="@id/end_guidline"
+                app:layout_constraintStart_toStartOf="@id/start_guidline"
+                app:layout_constraintTop_toBottomOf="@id/tv_avail_points">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_cv">
+
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:id="@+id/animation_view"
+                        app:lottie_rawRes="@raw/congrats"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        android:visibility="gone"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="Are you sure you want to Exchange 400 Points For 0.00938 PETRO?"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/animation_view"/>
+
+                    <ImageView
+                        android:id="@+id/iv_incenti"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginVertical="10dp"
+                        android:gravity="center"
+                        android:src="@drawable/logo"
+                        app:layout_constraintBottom_toTopOf="@+id/tv_coin_name"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+
+                    <TextView
+                        android:id="@+id/tv_coin_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:text="PETRO"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toTopOf="@+id/et_wallet_address"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+                    <EditText
+                        android:id="@+id/et_wallet_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bg_btn_no"
+                        android:hint="Paste Your Wallet Address"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toTopOf="@+id/btn_yes"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+                    <TextView
+                        android:id="@+id/btn_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_btn_no"
+                        android:paddingHorizontal="20dp"
+                        android:paddingVertical="6dp"
+                        android:text="NO"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/btn_yes"
+                        app:layout_constraintEnd_toStartOf="@+id/btn_yes"
+                        app:layout_constraintHorizontal_bias="0.52"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/btn_yes" />
+
+
+                    <TextView
+                        android:id="@+id/btn_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/bg_btn_yes"
+                        android:paddingHorizontal="20dp"
+                        android:paddingVertical="6dp"
+                        android:text="YES"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/btn_no" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/bottom_guidline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_end="20dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <include
+                    android:id="@+id/leftDrawerMenu"
+                    layout="@layout/left_drawer_menu"
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent" />
+
+
+                <include
+                    android:id="@+id/rightDrawerMenu"
+                    layout="@layout/right_drawer_menu"
+                    android:layout_width="@dimen/_220sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

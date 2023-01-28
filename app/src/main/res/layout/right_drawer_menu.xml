@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="name"
+            type="String" />
+
+        <variable
+            name="preferences"
+            type="com.cc.cenntrum.utils.SavedPreference" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/leftDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_right_drawer"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="@dimen/_20sdp">
+
+            <LinearLayout
+                android:id="@+id/navHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/_20sdp"
+                android:paddingBottom="@dimen/_15sdp">
+
+                <ImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/drawer_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18ssp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="#BDBDBD"
+                    android:layout_marginHorizontal="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableTint="@color/black"
+                    android:drawableStart="@drawable/user_id"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/my_profile"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/buy_subscription"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableTint="@color/black"
+                    android:drawableStart="@drawable/buy_subscription"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Buy Subscriptions"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/buy_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableTint="@color/black"
+                    android:drawableStart="@drawable/buy_points"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Buy Points"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/crypto_wallet"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?selectableItemBackground"
+                    android:clickable="true"
+
+                    android:drawableTint="@color/black"
+                    android:drawableStart="@drawable/my_crypto_wallet"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/my_crypto_wallets"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/focus"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableTint="@color/black"
+                    android:drawableStart="@drawable/my_focus"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/my_focus"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/friends"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableTint="@color/black"
+                    android:drawableStart="@drawable/family"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/friends"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/terms_conditions"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableTint="@color/black"
+                    android:drawableStart="@drawable/terms_conditions"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/terms_amp_conditions"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/policy"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="?selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableTint="@color/black"
+                    android:drawableStart="@drawable/privacy_policy"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/close_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="@id/linearLayout"
+            app:srcCompat="@drawable/ic_close"
+            app:tint="@color/white" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

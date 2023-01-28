@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mrg_10">15dp</dimen>
+    <dimen name="mrg_wallet_top">15dp</dimen>
+    <dimen name="timer_text_size">32sp</dimen>
+</resources>

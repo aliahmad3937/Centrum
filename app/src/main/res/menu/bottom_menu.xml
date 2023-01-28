@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_my_points"
+        android:title="@string/my_points"
+        android:icon="@drawable/ic_my_points"
+        />
+    <item android:id="@+id/nav_my_rewards"
+        android:title="@string/my_rewards"
+        android:icon="@drawable/ic_my_rewards"
+        />
+
+    <item android:id="@+id/nav_home"
+        android:title=""
+        android:icon="@drawable/ic_home"
+        />
+
+    <item android:id="@+id/nav_incentives"
+        android:title="@string/incentives"
+        android:icon="@drawable/ic_incentives"
+        />
+
+    <item android:id="@+id/nav_notifications"
+        android:title="@string/notifications"
+        android:icon="@drawable/family"
+        />
+</menu>

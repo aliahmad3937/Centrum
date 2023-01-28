@@ -1,0 +1,52 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+
+        maven {
+            url "https://maven.google.com"
+        }
+
+        jcenter()
+
+    }
+
+
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+
+                username = 'mapbox'
+                password =  "sk.eyJ1IjoiY2VubnRydW0iLCJhIjoiY2w5d2Z1YnVyMDA4YzNycGswems3cGNmNyJ9.QWIOo1ZNlWu4HIdQw6QuMw"
+            }
+        }
+
+
+        google()
+        mavenCentral()
+
+        maven {
+            url "https://maven.google.com"
+        }
+
+        jcenter()
+
+        maven { url 'https://jitpack.io' }
+
+
+
+    }
+}
+rootProject.name = "Cenntrum"
+include ':app'
+include ':spacelib'
+include ':spacelib'

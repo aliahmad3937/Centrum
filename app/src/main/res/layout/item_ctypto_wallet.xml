@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_coin"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/tv_coin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PETRO"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/iv_coin"
+            app:layout_constraintEnd_toEndOf="@id/iv_coin"
+            app:layout_constraintTop_toBottomOf="@id/iv_coin"/>
+
+
+        <EditText
+            android:id="@+id/et_wallet_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_wallet_address"
+            android:hint="Paste Your Wallet Address"
+            android:layout_marginStart="10dp"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:drawableRight="@drawable/ic_done"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_coin_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

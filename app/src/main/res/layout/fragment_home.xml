@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.HomeFragment">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/start_guidline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/_20sdp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/end_guidline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="73dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintGuide_end="@dimen/_20sdp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/top_guidline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@id/end_guidline"
+            app:layout_constraintGuide_begin="20dp"
+            app:layout_constraintStart_toStartOf="@id/start_guidline"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/_94sdp"
+            android:layout_height="@dimen/_94sdp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/end_guidline"
+            app:layout_constraintStart_toStartOf="@+id/start_guidline"
+            app:layout_constraintTop_toBottomOf="@id/top_guidline"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/main_rectangle"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@id/continue_btn"
+            app:layout_constraintEnd_toEndOf="@id/end_guidline"
+            app:layout_constraintStart_toStartOf="@id/start_guidline"
+            app:layout_constraintTop_toBottomOf="@id/textView4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/what_are_you_going_to_focus_on"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="@dimen/_14ssp"
+                android:layout_marginTop="@dimen/_20sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:weightSum="6"
+                android:layout_marginTop="@dimen/_5sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:padding="@dimen/_12sdp"
+                        android:src="@drawable/ic_driving"
+                      />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".6"
+                        android:text="@string/driving"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/_16ssp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+                        android:id="@+id/switch1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="center"
+                        android:padding="@dimen/_12sdp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:src="@drawable/study"
+                        android:padding="@dimen/_12sdp"
+                        app:tint="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".6"
+                        android:text="@string/studing"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="@dimen/_16ssp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+                        android:id="@+id/switch2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="center"
+                        android:padding="@dimen/_12sdp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:src="@drawable/ic_working"
+                        android:padding="@dimen/_12sdp"
+                        app:tint="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".6"
+                        android:text="@string/working"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+
+                        android:textSize="@dimen/_16ssp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+                        android:id="@+id/switch3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="center"
+                        android:padding="@dimen/_12sdp"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:src="@drawable/exercise"
+                        android:padding="@dimen/_12sdp"
+                        app:tint="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".6"
+                        android:text="@string/exersing"
+                        android:gravity="center"
+                        android:textSize="@dimen/_16ssp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+                        android:id="@+id/switch4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="center"
+                        android:padding="@dimen/_12sdp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:src="@drawable/family"
+                        android:padding="@dimen/_12sdp"
+                        app:tint="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".6"
+                        android:textAllCaps="true"
+                        android:text="@string/friend_family"
+                        android:gravity="center"
+                        android:textSize="@dimen/_16ssp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+                        android:id="@+id/switch5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="center"
+                        android:padding="@dimen/_12sdp"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:src="@drawable/ic_other"
+                        android:padding="@dimen/_12sdp"
+                        app:tint="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".6"
+                        android:text="@string/others"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="@dimen/_16ssp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        />
+
+                    <Switch
+                        android:id="@+id/switch6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="center"
+                        android:padding="@dimen/_12sdp"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/continue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:backgroundTint="@color/purple_700"
+            android:paddingStart="@dimen/_30sdp"
+            android:paddingEnd="@dimen/_30sdp"
+            android:text="@string/continue_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:cornerRadius="@dimen/_100sdp"
+            app:layout_constraintBottom_toTopOf="@id/bottom_guidline"
+            app:layout_constraintEnd_toEndOf="@id/end_guidline"
+            app:layout_constraintStart_toStartOf="@id/start_guidline" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/bottom_guidline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="30dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

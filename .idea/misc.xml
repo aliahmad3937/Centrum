@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_btn_outline.xml" value="0.253" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_drawer.xml" value="0.253" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_driving.xml" value="0.2485" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_driving_unselected.xml" value="0.2485" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_et.xml" value="0.259" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_layout_round_grey.xml" value="0.2485" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_right_drawer.xml" value="0.1465" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_search_view.xml" value="0.235" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/drawable/bg_tv_round.xml" value="0.2485" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_forget_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_incentives.xml" value="0.36666666666666664" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_map.xml" value="0.22" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_points.xml" value="0.22" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_rewards.xml" value="0.36666666666666664" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_sign_up.xml" value="0.33" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/fragment_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/left_drawer_menu.xml" value="0.2" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/loading_dilouge_lottie.xml" value="0.36666666666666664" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/layout/right_drawer_menu.xml" value="0.22" />
+        <entry key="..\:/CodeCoyAndroidProjects/Cenntrum/app/src/main/res/menu/navigation_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable-v24/bg_et_date2.xml" value="0.253" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable-v24/bg_subscr.xml" value="0.243" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable-v24/bg_subscr_grey.xml" value="0.243" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.243" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_btn_no.xml" value="0.255" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_btn_outline.xml" value="0.283" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_btn_yes.xml" value="0.255" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_cv.xml" value="0.1785" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_et.xml" value="0.224" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_et_date.xml" value="0.169" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_et_date_2.xml" value="0.2605" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_img.xml" value="0.169" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_incentive_end.xml" value="0.257" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_incentive_start.xml" value="0.257" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_outline_round.xml" value="0.243" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_policy.xml" value="0.155" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_round_light.xml" value="0.243" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_subscr.xml" value="0.243" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_tv_exchange.xml" value="0.255" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_tv_round.xml" value="0.283" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_tv_timer.xml" value="0.2605" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/bg_wallet_address.xml" value="0.2455" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/ic_add_circle_outline_24.xml" value="0.243" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/drawable/ic_navigation_white_24dp.xml" value="0.173" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/font/font.xml" value="0.3734375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/activity_map_box_turn_by_turn.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/bottom_sheet_dialog_points.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/dialog_password.xml" value="0.3359375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_accumulated_points.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_exchange_points.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_forget_password.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_friends.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_incentives.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_login.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_map.xml" value="0.2" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_more_friends.xml" value="0.2" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_my_crypto_wallet.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_my_focus.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_notifications.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_points.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_points_details.xml" value="0.3359375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_privacy_policy.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_rewards.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_sign_up.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_splash_screen.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/fragment_terms_conditions.xml" value="0.2234375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/item_accumulated_points.xml" value="0.3359375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/item_ctypto_wallet.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/item_exchange_points.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/item_friend.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/item_incentive.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/item_notification.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/item_points_detail.xml" value="0.3359375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/item_reward.xml" value="0.3359375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/layout_spinner_item.xml" value="0.3359375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/layout_timer.xml" value="0.4" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/layout_timer_2.xml" value="0.3359375" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/left_drawer_menu.xml" value="0.2" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/loading_dilouge_lottie.xml" value="0.12135416666666667" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/layout/right_drawer_menu.xml" value="0.264" />
+        <entry key="..\:/CodeCoyAndroidProjectsAli/Cenntrum/app/src/main/res/menu/bottom_menu.xml" value="0.2234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
