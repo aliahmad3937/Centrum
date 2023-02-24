@@ -20,6 +20,11 @@ An App where user can earn points while using app and can purchase crypto and gi
 - FCM
 - Rest APIs
 - In-App Purchase
+- Clean Architecture
+- MVVM and other Design Patterns
+- Coroutines
+- Flow
+- Solid Principles
 
 
 
