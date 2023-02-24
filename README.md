@@ -30,35 +30,35 @@ An App where user can earn points while using app and can purchase crypto and gi
 
 # Pictures
 <p float="left">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/login.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/signup.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/homePage.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/googleMap.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/activityTimer.jpg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/login.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/signup.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/homePage.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/googleMap.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/activityTimer.jpeg" width="150" height="280">
 </p>
 
 <p float="left">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/mapBoxDirection.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/placeSearch.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/autoPlaceSuggestions.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/googleMap.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/leftDrawer.jpg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/mapBoxDirection.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/placeSearch.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/autoPlaceSuggestions.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/googleMap.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/leftDrawer.jpeg" width="150" height="280">
 </p>
 
 <p float="left">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/incentives.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/gift.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/cryptoWallets.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/earnPoints.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/focus.jpg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/incentives.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/gift.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/cryptoWallets.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/earnPoints.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/focus.jpeg" width="150" height="280">
 </p>
 
 <p float="left">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/myPoints.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/myReward.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/profile.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/buyPoints.jpg" width="150" height="280">
-<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/buySubscription.jpg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/myPoints.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/myReward.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/profile.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/buyPoints.jpeg" width="150" height="280">
+<img src="https://github.com/aliahmad3937/Centrum/blob/master/asset/buySubscription.jpeg" width="150" height="280">
 </p>
 
 
